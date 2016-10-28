@@ -56,6 +56,7 @@ public final class AirHockeyRenderer implements Renderer {
     vertexData = ByteBuffer.allocateDirect(tableVerticesWithTriangles.length * BYTES_PER_FLOAT)
         .order(ByteOrder.nativeOrder())
         .asFloatBuffer();
+    vertexData.put(tableVerticesWithTriangles);
   }
 
   @Override public void onSurfaceCreated(GL10 gl, EGLConfig config) {
