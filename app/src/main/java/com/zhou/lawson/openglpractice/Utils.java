@@ -11,10 +11,10 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 
 /**
- * Created by lawson on 16/10/28.
+ * Created by lawson on 16/11/29.
  */
 
-public final class Utils {
+public class Utils {
 
   public static boolean supportsEs2(Context context) {
     final ActivityManager activityManager =

@@ -4,6 +4,7 @@ import android.opengl.GLSurfaceView;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
+import com.zhou.lawson.openglpractice.renders.AirHockeyRenderer;
 
 public class MainActivity extends AppCompatActivity {
 
